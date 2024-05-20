@@ -10,7 +10,7 @@ export default function Home() {
     async function initAndFetch() {
       const BranchSDK = (await import('branch-sdk')).default
 
-      BranchSDK.init("key_live_hxaCJGVYN2EoATD8Sw49CaefFveq6fR0")
+      BranchSDK.init("key_live_ccQ8piFdCMPVysh8TLmEhghmuCk162Rr")
 
       BranchSDK.data(function (err, data) {
         if (err) {
