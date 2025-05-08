@@ -8,9 +8,7 @@ export default function Home() {
 
   function handleLogEvent() {
     const BranchSDK = require('branch-sdk');
-    BranchSDK.logEvent('Custom Button Clicked', {
-      custom_data: 'Clicked from homepage button'
-    });
+    BranchSDK.logEvent('Custom Button Clicked');
     console.log("Branch event logged");
   }
 
